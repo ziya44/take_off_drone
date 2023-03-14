@@ -43,8 +43,8 @@ tensorboard = "^2.9"
 
 
 learn.py  is an RL example to take-off using stable-baselines3's A2C or rllib's PPO
-
-$ cd take_off_drones/drones/examples/
-
-$ python3 learn.py           
+```bash
+$ cd take_off_drone/drones/examples/
+$ python3 learn.py  
+```
 <!--
