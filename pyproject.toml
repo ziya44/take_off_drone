@@ -1,13 +1,11 @@
 [tool.poetry]
-name = "gym-pybullet-drones"
-version = "0.0.3"
-description = "PyBullet Gym environments for single and multi-agent reinforcement learning of quadcopter control"
-authors = ["Jacopo Panerati <jacopo.panerati@utoronto.ca>"]
+name = "take_off_drone"
+version = "0.1"
+description = "PyBullet Gym environments for single agent reinforcement learning of quadcopter control"
 license = "MIT"
-readme = "pypi_description.md"
-repository = "https://github.com/utiasDSL/gym-pybullet-drones"
+repository = "https://github.com/ziya44/take_off_drone"
 packages = [
-    { include = "gym_pybullet_drones" }
+    { include = "take_off_drone" }
 ]
 
 [tool.poetry.dependencies]
