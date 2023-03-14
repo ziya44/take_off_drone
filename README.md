@@ -1,7 +1,6 @@
-# take_off_drone
-[tool.poetry]
 
-Requirements and Installation
+
+## Requirements and Installation
 
 The repo was written using Python 3.8 with conda on  Ubuntu 20.04
 
@@ -19,16 +18,15 @@ $ pip3 install --upgrade pip
 $ git clone https://github.com/ziya44/take_off_drone.git
 $ cd take_off_drone/
 ```
-<!--
+
 
 Video recording requires to have ffmpeg installed, On Ubuntu
 
 $ sudo apt install ffmpeg
 
 
-please install the following packages
-
-[tool.poetry.dependencies]
+# please install the following packages
+```bash
 python = "^3.8"
 numpy = "^1.22"
 Pillow = "^9.0"
@@ -41,13 +39,12 @@ torch = "1.11.0"
 stable-baselines3 = "1.5.0"
 scipy = "^1.8"
 tensorboard = "^2.9"
+```
 
-[tool.poetry.dev-dependencies]
-
-[build-system]
 
 learn.py  is an RL example to take-off using stable-baselines3's A2C or rllib's PPO
 
 $ cd take_off_drones/drones/examples/
 
 $ python3 learn.py           
+<!--
