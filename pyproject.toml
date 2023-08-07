@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "take_off_drone"
-version = "0.1"
+version = "0.1.1"
 description = "PyBullet Gym environments for single agent reinforcement learning of quadcopter control"
 license = "MIT"
 repository = "https://github.com/ziya44/take_off_drone"
